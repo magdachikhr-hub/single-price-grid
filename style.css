@@ -29,6 +29,7 @@ div.first_card {
   background-color: #ffffff;
   width: 635px;
   height: 216px;
+  padding: 40px;
 
   h3 {
     color: #c0df33;
@@ -46,6 +47,7 @@ div.second_card {
   width: 318px;
   height: 259px;
   background-color: #2ab3b1;
+  padding: 40px;
 
   h3,
   span.number,
@@ -54,6 +56,7 @@ div.second_card {
   }
   span {
     color: #95d9d8;
+    letter-spacing: -0.2px;
   }
 }
 
@@ -61,15 +64,31 @@ div.third_card {
   width: 318px;
   height: 259px;
   background-color: #4bbfbd;
+  padding: 40px;
 
   h3 {
     color: #ffffff;
   }
   p {
     color: #d2efee;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 20px;
+    font-weight: 400;
   }
 }
 
 h2 {
   color: #2ab3b1;
+  font-size: 24px;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: -0.22px;
 }

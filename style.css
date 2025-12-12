@@ -19,10 +19,20 @@ main {
 div.container {
   height: 475px;
   width: 635px;
+  border-radius: 8px;
 }
 
 div.first_card {
   background-color: #ffffff;
+  width: 635px;
+  height: 216px;
+
+  h3 {
+    color: #c0df33;
+  }
+  p {
+    color: #9aa7be;
+  }
 }
 
 div.blue {
@@ -33,10 +43,30 @@ div.second_card {
   width: 318px;
   height: 259px;
   background-color: #2ab3b1;
+
+  h3,
+  span.number,
+  p {
+    color: #ffffff;
+  }
+  span {
+    color: #95d9d8;
+  }
 }
 
 div.third_card {
   width: 318px;
   height: 259px;
   background-color: #4bbfbd;
+
+  h3 {
+    color: #ffffff;
+  }
+  p {
+    color: #d2efee;
+  }
+}
+
+h2 {
+  color: #2ab3b1;
 }

@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  background-color: #e6eff5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.container {
+  height: 475px;
+  width: 635px;
+}
+
+div.first_card {
+  background-color: #ffffff;
+}
+
+div.blue {
+  display: flex;
+}
+
+div.second_card {
+  width: 318px;
+  height: 259px;
+  background-color: #2ab3b1;
+}
+
+div.third_card {
+  width: 318px;
+  height: 259px;
+  background-color: #4bbfbd;
+}

@@ -22,7 +22,6 @@ main {
 div.container {
   height: 475px;
   width: 635px;
-  border-radius: 8px;
 }
 
 div.first_card {
@@ -30,6 +29,8 @@ div.first_card {
   width: 635px;
   height: 216px;
   padding: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 
   h3 {
     color: #c0df33;
@@ -48,6 +49,7 @@ div.second_card {
   height: 259px;
   background-color: #2ab3b1;
   padding: 40px;
+  border-bottom-left-radius: 8px;
 
   h3,
   span.number,
@@ -58,6 +60,17 @@ div.second_card {
     color: #95d9d8;
     letter-spacing: -0.2px;
   }
+
+  span.number {
+    font-size: 32px;
+    letter-spacing: -0.4px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+  }
 }
 
 div.third_card {
@@ -65,6 +78,7 @@ div.third_card {
   height: 259px;
   background-color: #4bbfbd;
   padding: 40px;
+  border-bottom-right-radius: 8px;
 
   h3 {
     color: #ffffff;
@@ -84,11 +98,25 @@ h2 {
 }
 
 h2,
-h3 {
+h3,
+span.number {
   font-weight: 700;
 }
 
 h3 {
   font-size: 18px;
   letter-spacing: -0.22px;
+}
+
+button {
+  width: 237px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #c0df33;
+  border: none;
+  color: #ffffff;
+  box-shadow: 0px 15px 30px 0px #0051ab26;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.2px;
 }
